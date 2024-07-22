@@ -1,0 +1,61 @@
+body{
+    background-image: url('coffe-img');
+    background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 150px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 25px;
+    overflow: hidden;
+    margin-right: 150px;
+    margin-top: 0;
+  }
+  li {
+  float:right;
+  }
+  li a{
+      display: inline-block;
+      color: whitesmoke;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-style: normal;
+      font-weight: bold;
+  }
+  li a:hover {
+      background-color: rgb(144, 42, 5);
+      border-radius: 16px;
+  }
+  .active{
+    font-style: italic;
+    margin-left: 150px;
+    font-size: 40px;
+  }
+  h1{
+    color: aliceblue;
+    font-size: 60px;
+    font-style: italic;
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+  h2{
+    color: aliceblue;
+    font-size: 33px;
+    font-style: italic;
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+  button{
+    background-color: chocolate;
+    margin-left: 220px;
+    border-radius: 16px;
+    color: azure;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: chocolate;
+  }
